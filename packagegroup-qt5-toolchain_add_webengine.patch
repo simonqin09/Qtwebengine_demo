@@ -1,5 +1,5 @@
---- ../layers/meta-qt5/recipes-qt/packagegroups/packagegroup-qt5-toolchain-target.bb.bak	2018-03-21 14:00:07.646757697 +0800
-+++ ../layers/meta-qt5/recipes-qt/packagegroups/packagegroup-qt5-toolchain-target.bb	2018-03-21 14:05:51.554750109 +0800
+--- a/layers/meta-qt5/recipes-qt/packagegroups/packagegroup-qt5-toolchain-target.bb	2018-03-21 14:00:07.646757697 +0800
++++ b/layers/meta-qt5/recipes-qt/packagegroups/packagegroup-qt5-toolchain-target.bb	2018-03-21 14:05:51.554750109 +0800
 @@ -104,6 +104,9 @@
      qtwebchannel-dev \
      qtwebchannel-mkspecs \
