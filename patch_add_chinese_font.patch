@@ -1,0 +1,18 @@
+--- a/Examples/Qt-5.7/webengine/quicknanobrowser/main.cpp	2018-04-10 14:14:32.306254766 +0800
++++ b/Examples/Qt-5.7/webengine/quicknanobrowser/main.cpp	2018-04-10 14:32:33.020585487 +0800
+@@ -82,6 +82,15 @@
+ 
+     Application app(argc, argv);
+ 
++    int fontid = QFontDatabase::addApplicationFont("/home/root/fonts/STKAITI.TTF");
++    if(fontid != -1)
++    {
++        QString msyh = QFontDatabase::applicationFontFamilies(fontid).at(0);
++        QFont font(msyh,10);
++        font.setPointSize(10);
++        app.setFont(font);
++    }
++
+     QtWebEngine::initialize();
+ 
+     QQmlApplicationEngine appEngine;
