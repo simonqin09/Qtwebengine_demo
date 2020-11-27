@@ -1,6 +1,14 @@
 --- a/Examples/Qt-5.7/webengine/quicknanobrowser/main.cpp	2018-04-10 14:14:32.306254766 +0800
 +++ b/Examples/Qt-5.7/webengine/quicknanobrowser/main.cpp	2018-04-10 14:32:33.020585487 +0800
-@@ -82,6 +82,15 @@
+@@ -60,6 +60,7 @@
+ #include <QtQml/QQmlApplicationEngine>
+ #include <QtQml/QQmlContext>
+ #include <QtWebEngine/qtwebengineglobal.h>
++#include <QFontDatabase>
+ 
+ static QUrl startupUrl()
+ {
+@@ -82,6 +83,15 @@
  
      Application app(argc, argv);
  
